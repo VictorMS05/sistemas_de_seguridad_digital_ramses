@@ -1,13 +1,20 @@
+/* Para que se extienda todo el contenido en toda la pantalla */
+
 body {
     margin: 0px;
 }
 
+/* Estilos para el encabezado (Logo, eslogan, menú) */
+
 header {
-    display: flex;
-    height: 125px;
-    background-color: #EEEEEE;
-    padding: 10px;
+    display: grid;
+    /* background-color: #EEEEEE; */
+    padding-top: 10px;
+    padding-bottom: 25px;
+    grid-template-columns: 1fr 4fr;
 }
+
+/* Estilos para logo y eslogan */
 
 #principal {
     display: flex;
@@ -19,4 +26,93 @@ header {
     margin: 0px;
     font-style: italic;
     color: #003088;
+}
+
+/* Estilos para el menú */
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding-right: 25px;
+}
+
+.menu-principal {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Estilos para el contenido general */
+
+#general {
+    display: grid;
+    background-color: #EEEEEE;
+    grid-template-columns: 1fr 5fr;
+}
+
+/* Estilos para el aside */
+/* #7FB3D5 */
+
+aside {
+    /* background-image: url(fondo_contacto.jpg);
+    background-size: cover;
+    background-position-x: -100px; */
+    background-color: #7FB3D5;
+    padding: 25px;
+    text-align: center;
+}
+
+.entrada {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.entrada::placeholder {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+#mensaje {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    height: 75px;
+}
+
+#mensaje::placeholder {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+#boton {
+    margin-top: 25px;
+    background-color: #005099;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#fondo {
+    width: 100%;
+}
+
+/* Estilos para el pie de pagina */
+
+footer {
+    display: flex;
+    background-color: #005099;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
 }
