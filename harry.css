@@ -32,13 +32,13 @@ header {
 
 #menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     gap: 25px;
     padding-right: 25px;
 }
 
-.menu-principal {
+.menu-principal { /*pendiente*/
     text-decoration: none;
     font-size: 20px;
 }
@@ -115,4 +115,30 @@ footer {
     justify-content: center;
     color: white;
     font-weight: bold;
+}
+
+/*Barra de navegación*/
+.nav-enlace{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 30px; /*Arriba_abajo Izq_der*/
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s;
+    cursor: pointer; /*Para poner el cursor en forma de manita*/
+    position: relative;
+    overflow: hidden;
+}
+.nav-enlace:hover{ /*Subrayado al poner el cursor sobre palabra*/
+    background: #6da8df;
+    height: 20%;
+}
+nav{
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
