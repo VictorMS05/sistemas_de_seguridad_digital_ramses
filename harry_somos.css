@@ -1,0 +1,50 @@
+#contenedor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(familia.jpg);
+    background-size: cover;
+    background-position-y: -250px;
+    padding: 10%;
+}
+
+#frase1 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+#contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7FB3D5;
+    padding: 10%;
+}
+
+#frase2 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+#contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(instalacion.jpg);
+    background-size: cover;
+    background-position-y: -250px;
+    padding: 10%;
+}
+
+#frase3 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}

@@ -42,7 +42,7 @@ a{
     justify-content: flex-end;
     align-items: center;
     gap: 25px;
-    padding-right: 25px;
+    padding-right: 50px;
 }
 
 .menu-principal {
@@ -52,10 +52,8 @@ a{
 /* Estilos para el contenido general */
 
 #general {
-    display: grid;
     background-color: #EEEEEE;
-    grid-template-rows: 1fr;
-    padding-top: 157px;
+    padding-top: 150px;
 }
 
 /* Estilos para el aside */
@@ -115,7 +113,7 @@ a{
 
 footer {
     display: flex;
-    background-color: #7FB3D5;
+    background-color: #5a9ecc;
     justify-content: center;
     color: white;
     font-weight: bold;
