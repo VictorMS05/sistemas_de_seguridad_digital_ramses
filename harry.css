@@ -55,6 +55,7 @@ a{
     display: grid;
     background-color: #EEEEEE;
     grid-template-rows: 1fr;
+    padding-top: 157px;
 }
 
 /* Estilos para el aside */
