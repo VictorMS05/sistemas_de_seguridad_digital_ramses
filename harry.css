@@ -8,15 +8,22 @@ body {
 
 header {
     display: grid;
-    /* background-color: #EEEEEE; */
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(1, 1, 1, 0.5);
     padding-top: 10px;
     padding-bottom: 25px;
     grid-template-columns: 1fr 4fr;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Estilos para logo y eslogan */
 
 #principal {
+    width: 275px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +46,6 @@ header {
 }
 
 .menu-principal {
-    text-decoration: none;
     font-size: 20px;
 }
 
@@ -48,16 +54,13 @@ header {
 #general {
     display: grid;
     background-color: #EEEEEE;
-    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
 }
 
 /* Estilos para el aside */
 /* #7FB3D5 */
 
-aside {
-    /* background-image: url(fondo_contacto.jpg);
-    background-size: cover;
-    background-position-x: -100px; */
+/* aside {
     background-color: #7FB3D5;
     padding: 25px;
     text-align: center;
@@ -105,13 +108,13 @@ aside {
 
 #fondo {
     width: 100%;
-}
+} */
 
 /* Estilos para el pie de pagina */
 
 footer {
     display: flex;
-    background-color: #005099;
+    background-color: #7FB3D5;
     justify-content: center;
     color: white;
     font-weight: bold;
