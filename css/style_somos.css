@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(familia.jpg);
+    background-image: url(../img/familia.jpg);
     background-size: cover;
     background-position-y: -250px;
     padding: 10%;
@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(instalacion.jpg);
+    background-image: url(../img/instalacion.jpg);
     background-size: cover;
     background-position-y: -250px;
     padding: 10%;
