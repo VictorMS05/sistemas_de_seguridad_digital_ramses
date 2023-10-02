@@ -36,8 +36,9 @@
     flex-direction: column;
     align-items: center;
     background-image: url(instalacion.jpg);
-    background-size: cover;
-    background-position-y: -250px;
+    /* background-size: cover; */
+    /* background-position-y: -250px; */
+    background-position: center;
     padding: 10%;
 }
 

@@ -113,8 +113,52 @@ Estilos para el aside */
 
 footer {
     display: flex;
-    background-color: #5a9ecc;
+    background-color: black;
     justify-content: center;
-    color: white;
+    color: rgb(7, 7, 7);
     font-weight: bold;
+}
+.nav-enlace{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 30px; /*Arriba_abajo Izq_der*/
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s;
+    cursor: pointer; /*Para poner el cursor en forma de manita*/
+    position: relative;
+    overflow: hidden;
+}
+.nav-enlace:hover{ /*Subrayado al poner el cursor sobre palabra*/
+    background: #6da8df;
+    height: 20%;
+}
+nav{
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .footer-section1 {
+    width: 80%;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color:blanchedalmond;
+}
+.footer-section2 {
+    width: 20%;
+    float: right;
+    background-color: black;
+} */
+
+.footer-estilo{
+    background-color: black;
+    color:blanchedalmond;
+    align-items: center;
+    text-align: center;
 }
