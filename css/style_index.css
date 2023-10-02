@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(oficina.jpg);
+    background-image: url(../img/oficina.jpg);
     background-position-y: -250px;
     padding: 10%;
 }
@@ -77,11 +77,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD:harry_index.css
     background-image: url(departamento.jpg);
     /* background-position-y: 100px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+=======
+    background-image: url(../img/departamento.jpg);
+    background-position-y: -250px;
+>>>>>>> 0f0b932fc1f1ee934763387d72c1dc66a2138238:css/style_index.css
     padding: 10%;
 }
 
