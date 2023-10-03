@@ -23,7 +23,7 @@ a{
 /* Estilos para logo y eslogan */
 
 #principal {
-    width: 275px;
+    width: 100vb;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,4 +160,10 @@ nav{
     color:blanchedalmond;
     align-items: center;
     text-align: center;
+    font-size: x-large;
+}
+.footer-estilo2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

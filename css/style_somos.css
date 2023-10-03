@@ -35,16 +35,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD:harry_somos.css
-    background-image: url(instalacion.jpg);
-    /* background-size: cover; */
+    background-image: url(/img/instalacion.jpg);
+    background-size: cover;
     /* background-position-y: -250px; */
     background-position: center;
-=======
-    background-image: url(../img/instalacion.jpg);
-    background-size: cover;
-    background-position-y: -250px;
->>>>>>> 0f0b932fc1f1ee934763387d72c1dc66a2138238:css/style_somos.css
+    background-repeat: no-repeat;
     padding: 10%;
 }
 
